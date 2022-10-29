@@ -1,0 +1,37 @@
+body
+{
+    background-color: black;
+}
+
+#container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 720px;
+}
+
+canvas
+{
+
+    width: 800px;
+    height: 720px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p
+{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#slider
+{
+    width: 100%;
+}
